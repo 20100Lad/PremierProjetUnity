@@ -6,9 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/L_VRTemplate.unity
+    guid: 8b90abed7214f224f877e643b22c0eca
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 561edf48cdca08f46aedb206d456e77c,
+      type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: 9949d97f539684444b2691dddd9488ec, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: be4239d84cb2d0e4992e20f70e10716b,
+      type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 8c7952e541cdeb845b1f4f5ab0b3bbcd,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8d043173825e0fc4ea524c1caa47a120,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0d58d17d2bded9c49a1ee19f93ff33f5,
